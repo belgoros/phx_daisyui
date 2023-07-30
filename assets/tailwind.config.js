@@ -11,6 +11,9 @@ module.exports = {
     "../lib/*_web.ex",
     "../lib/*_web/**/*.*ex"
   ],
+	daisyui: {
+		logs: false,
+	},
   theme: {
     extend: {
       colors: {
